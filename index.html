@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <main>
+      <section class="page-1" id="page1">
+        <section class="left">
+          <h1 class="heading">Stay updated!</h1>
+          <p class="paragraph">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <ul>
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+          <p class="validEmailText">Valid email required</p>
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@company.com"
+            required
+          />
+          <button class="btn">Subscribe to monthly newsletter</button>
+        </section>
+        <section class="right">
+          <img
+            src="./assets/images/illustration-sign-up-desktop.svg"
+            alt="illustration-sign-up-desktop"
+          />
+        </section>
+      </section>
+      <section class="page-2" id="page2"> 
+     
+        <section class="success-message">
+          <div class="success-logo">
+            <img src="./assets/images/icon-success.svg" alt="icon">
+          </div>
+          <h1 class="heading">Thanks for subscribing!</h1>
+          <p class="paragraph">
+            A confirmation email has been sent to <strong class="bold">ash@loremcompany.com.</strong>  Please open
+            it and click the button inside to confirm your subscription.
+          </p>
+          <button class="btn2">Dismiss message</button>
+        </section>
+    
+        
+
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

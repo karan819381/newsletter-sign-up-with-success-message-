@@ -14,8 +14,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -37,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/karan819381/newsletter-sign-up-with-success-message-.git]
-- Live Site URL: [https:///karan819381.github.io/newsletter-sign-up-with-success-message]
+- Live Site URL: [https://karan819381.github.io/newsletter-sign-up-with-success-message-]
 
 ## My process
 
